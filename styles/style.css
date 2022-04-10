@@ -10,7 +10,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -19,6 +20,8 @@ main {
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 
 hr {
@@ -100,4 +103,25 @@ hr {
     text-decoration: none;
     color: #562EFF;
     ;
+}
+
+/*-------------------
+    courses styles 
+--------------------*/
+
+.course .course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
 }
